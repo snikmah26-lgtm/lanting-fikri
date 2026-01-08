@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Produk</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="cart.html">Keranjang <span id="cart-badge" class="badge">0</span></a>
+</nav>
+
+<div class="grid">
+  <div class="product-card">
+    <img src="https://via.placeholder.com/300">
+    <h3>Lanting Original</h3>
+    <p>Rp 15.000</p>
+    <button onclick="addToCart('Lanting Original',15000)">Tambah</button>
+  </div>
+
+  <div class="product-card">
+    <img src="https://via.placeholder.com/300">
+    <h3>Lanting Pedas</h3>
+    <p>Rp 17.000</p>
+    <button onclick="addToCart('Lanting Pedas',17000)">Tambah</button>
+  </div>
+
+  <div class="product-card">
+    <img src="https://via.placeholder.com/300">
+    <h3>Lanting Keju</h3>
+    <p>Rp 18.000</p>
+    <button onclick="addToCart('Lanting Keju',18000)">Tambah</button>
+  </div>
+</div>
+
+<div id="toast" class="toast"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
