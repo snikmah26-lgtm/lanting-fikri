@@ -22,5 +22,5 @@ function checkout() {
   cart.forEach(i=>{
     msg+=`- ${i.name} (${i.qty})%0A`;
   });
-  window.open("https://wa.me/6281234567890?text="+msg);
+  window.open("https://wa.me/6282114731978?text="+msg);
 }
