@@ -85,3 +85,49 @@ button:disabled {
     grid-template-columns: 1fr;
   }
 }
+
+body {
+  font-family: Arial, sans-serif;
+  background: #faf7f2;
+  color: #4a3f35;
+}
+
+/* HERO COVER */
+.hero-cover {
+  background: url('cover-lanting.jpg') center/cover no-repeat;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  padding: 40px;
+}
+
+.hero-text {
+  background: rgba(255,255,255,0.85);
+  padding: 30px;
+  max-width: 500px;
+  border-radius: 12px;
+}
+
+.hero-text h1 {
+  margin-top: 0;
+}
+
+.desc {
+  font-size: 14px;
+  color: #6b5e53;
+}
+
+.price {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.product-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 15px;
+}
+
+.product-card img {
+  border-radius: 10px;
+}
