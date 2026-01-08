@@ -1,41 +1,43 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Produk</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-<nav>
-  <a href="index.html">Home</a>
-  <a href="cart.html">Keranjang <span id="cart-badge" class="badge">0</span></a>
-</nav>
-
 <div class="grid">
-  <div class="product-card">
-    <img src="https://via.placeholder.com/300">
-    <h3>Lanting Original</h3>
-    <p>Rp 15.000</p>
-    <button onclick="addToCart('Lanting Original',15000)">Tambah</button>
-  </div>
 
   <div class="product-card">
-    <img src="https://via.placeholder.com/300">
-    <h3>Lanting Pedas</h3>
-    <p>Rp 17.000</p>
-    <button onclick="addToCart('Lanting Pedas',17000)">Tambah</button>
-  </div>
-
-  <div class="product-card">
-    <img src="https://via.placeholder.com/300">
+    <img src="lanting-keju.jpg" alt="Lanting Keju">
     <h3>Lanting Keju</h3>
-    <p>Rp 18.000</p>
-    <button onclick="addToCart('Lanting Keju',18000)">Tambah</button>
+    <p class="desc">Perpaduan gurih lanting dan keju pilihan</p>
+    <p class="price">Rp 18.000 / 250gr</p>
+    <button onclick="addToCart('Lanting Keju',18000)">
+      Tambah ke Keranjang
+    </button>
   </div>
+
+  <div class="product-card">
+    <img src="lanting-sapi-panggang.jpg" alt="Lanting Sapi Panggang">
+    <h3>Lanting Sapi Panggang</h3>
+    <p class="desc">Rasa sapi panggang yang gurih dan khas</p>
+    <p class="price">Rp 20.000 / 250gr</p>
+    <button onclick="addToCart('Lanting Sapi Panggang',20000)">
+      Tambah ke Keranjang
+    </button>
+  </div>
+
+  <div class="product-card">
+    <img src="lanting-bawang.jpg" alt="Lanting Bawang">
+    <h3>Lanting Bawang</h3>
+    <p class="desc">Aroma bawang yang kuat dan menggugah selera</p>
+    <p class="price">Rp 16.000 / 250gr</p>
+    <button onclick="addToCart('Lanting Bawang',16000)">
+      Tambah ke Keranjang
+    </button>
+  </div>
+
+  <div class="product-card">
+    <img src="lanting-jagung.jpg" alt="Lanting Jagung">
+    <h3>Lanting Jagung</h3>
+    <p class="desc">Rasa jagung manis yang ringan dan renyah</p>
+    <p class="price">Rp 17.000 / 250gr</p>
+    <button onclick="addToCart('Lanting Jagung',17000)">
+      Tambah ke Keranjang
+    </button>
+  </div>
+
 </div>
-
-<div id="toast" class="toast"></div>
-
-<script src="script.js"></script>
-</body>
-</html>
