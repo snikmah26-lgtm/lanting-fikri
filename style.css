@@ -38,9 +38,8 @@ nav a {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  padding: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
 }
 
 .product-card {
@@ -79,4 +78,10 @@ nav a {
 
 button:disabled {
   background: #ccc;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
 }
